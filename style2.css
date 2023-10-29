@@ -1,0 +1,98 @@
+.container{
+    background-color: #2a4f6e;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+.section-2{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+img{
+    height: 40px;
+    transition: all .3s ease;
+    padding-right: 15px;
+}
+.section-3{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+body{
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-4{
+    width: 100%;
+    display: block;
+}
+.img1{
+    background: url(icons/fb_gray.png);
+    height: 64px;
+}
+.img1 :hover{
+    background: url(icons/fb.png);
+    height: 64px;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rollover {
+    background: url(icons/fb_gray.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+.rollover:hover {
+    background: url(icons/fb.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+.rollover1 {
+    background: url(icons/insta_gray.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+.rollover1:hover {
+    background: url(icons/insta.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+.rollover2 {
+    background: url(icons/youtube_gray.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+.rollover2:hover {
+    background: url(icons/youtube.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
